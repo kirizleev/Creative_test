@@ -7,6 +7,12 @@
     list-style-type: none;
 }
 
+.container{
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .header{
     width: 100%;
     background-color: #4b21ff;
