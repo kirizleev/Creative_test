@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./content/css/style.css">
+    <title>Creative test</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__inner">
+            <div class="menu__burger" id="menu__burger"></div>
+            <h1 class="header__logo" id="header__logo">Logo</h1>
+            <div class="header__info" id="header__info">
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor</p>
+                <p>Lorem ipsum dolor</p>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__inner">
+            <nav class="main__menu" id="main__menu">
+                <ul class="menu__list">
+                    <li class="menu__element"><a href="#" class="menu__button">О нас</a></li>
+                    <li class="menu__element"><a href="#" class="menu__button">Услуги</a></li>
+                    <li class="menu__element"><a href="#" class="menu__button">Партнёры</a></li>
+                    <li class="menu__element"><a href="#" class="menu__button">Портфолио</a></li>
+                    <li class="menu__element"><a href="#" class="menu__button">Карьера</a></li>
+                    <li class="menu__element"><a href="#" class="menu__button">Контакты</a></li>
+                </ul>
+            </nav>
+            <div class="main__main">
+                <div class="main__article" id="main__article">
+                    <h2>Lorem ipsum dolor sit amet!</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa consequatur explicabo rem officia
+                        quos iste corrupti sapiente repudiandae laudantium, expedita dignissimos labore. Fugit ipsa eum
+                        vero qui unde veniam esse.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, sit nostrum labore id doloribus
+                        excepturi minus. Impedit necessitatibus aliquam voluptate omnis doloremque, velit at fugit!
+                        Natus aut excepturi inventore debitis?
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium mollitia cupiditate, fugiat
+                        recusandae culpa ipsa, expedita asperiores, quae maxime quo doloribus accusantium eligendi
+                        totam! Ad minima perspiciatis id nostrum aperiam.
+                    </p>
+                </div>
+
+                <form class="main__form">
+                    <div>
+                        <input type="checkbox" id="checkbox_logo" checked onchange="hideEl(switchLogo, logo);">
+                        <label for="checkbox_logo">Показывать логотип</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="checkbox_header__info" checked onchange="hideEl(switchHeaderInfo, headerInfo);">
+                        <label for="checkbox_header__info">Показывать текст хэдера</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="checkbox_main__article" checked onchange="hideEl(switchMainArticle, mainArticle);">
+                        <label for="checkbox_main__article">Показывать статью</label>
+                    </div>
+                </form>
+                <form>
+                    <input type="checkbox" id="checkbox_show-all" checked onchange="hideAll();">
+                    <label for="checkbox_show-all">Показать все</label>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__inner">
+            <h3>2020 &#8197; Все права защищены ©</h3>
+        </div>
+    </footer>
+</body>
+<script src="./content/js/script.js"></script>
+
+</html>
